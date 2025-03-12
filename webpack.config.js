@@ -9,6 +9,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"), // 输出目录
     clean: true, // 每次构建前清理 dist 文件夹
+    // publicPath: "/weifuwu/", // 替换为你的仓库名
   },
   module: {
     rules: [
